@@ -1,0 +1,27 @@
+{
+    "name": "portalium/task",
+    "description": "task",
+    
+    "authors": [
+        {
+            "name": "demirmehmet0",
+            "email": "demirmehmet0@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^6.0@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Portalium\\Task\\Providers\\PortaliumTaskServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Portalium\\Task\\": "src/"
+        }
+    }
+}
